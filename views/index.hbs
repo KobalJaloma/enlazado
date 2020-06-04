@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+{{> head}}
+<body>
+{{> header}}
+<main>
+    <div class="navegacion">
+        {{> navbar}}
+    </div>
+    <div class="container">
+        {{#if pintores}}
+            {{> table}}
+        {{else}}
+            <div>
+                <h3>No se encuentran datos</h3>
+            </div>
+        {{/if}}
+    </div> 
+</main>
+{{> footer}}
+</body>
+</html>
+
+              

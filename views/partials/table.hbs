@@ -1,0 +1,28 @@
+<table class="table">
+  <!--table header-->
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Corriente</th>
+      <th>Obra Notable</th>
+      <th>Muerte</th>
+      <th>Region</th>
+      <th>Descripcion</th>
+      <th></th>
+    </tr>
+  </thead>
+  <!--tablea body-->
+  <tbody>
+    {{#each pintores}}
+      <tr>
+        <td>{{name}}</td>
+        <td>{{corriente}}</td>
+        <td>{{obraNotabl}}</td>
+        <td>{{muerte}}</td>
+        <td>{{descrition}}</td>
+        <td>{{region}}</td>
+        <td><img src="{{portada}}" alt="{{name}}" style="width: 200px; height: 300px;"></td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>

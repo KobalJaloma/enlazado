@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*header zone*/
+#headerL{
+    width: 100%;
+}
+
+#imageL{
+    width: 100%;
+    background-image: url("../images/AlexandreCabanel_perfil.jpg");
+    height: 100px;
+}
+
+#textL {
+    color: white;    
+    text-align: center;
+}
+
+/*footer*/
+footer {
+    bottom: 0;
+}
+/*created by leonardo j.*/
+.foot {
+    width: 100%;
+    background-color: azure;
+    color: black;
+}
+.foot h6 {
+    text-align: right;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+
